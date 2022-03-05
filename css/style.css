@@ -25,11 +25,12 @@
   /* トップ画像の指定 */
   /* 細かく調整する際は jumbotron クラスで設定 */
   --dkm-top-img: url(../img/main-image.jpg);
-  --dkm-top-img-pt: 100px; /* 上側にはみ出す高さ */
-  --dkm-top-img-pb: 100px; /* 下側にはみ出す高さ */
+  --dkm-top-img-pt: 200px; /* 上側にはみ出す高さ */
+  --dkm-top-img-pb: 50px; /* 下側にはみ出す高さ */
 
   /* タイトル画像上の社名表示部分の背景色・透明度 */
-  --dkm-top-title-bg: rgba(0, 128, 0, 0.8);
+  --dkm-top-title-bg?_: rgba(0, 128, 0, 0.8);
+  --dkm-top-title-bg: rgba(0, 128, 128, 0.8);
   --dkm-top-title-bg_: rgba(72, 61, 139, 0.8);
 
   /* タイトル画像上の社名表示部分のテキスト色 */
@@ -50,8 +51,8 @@
 /* 電話番号表示 */
 .dkm-nav-tel {
   border-radius: 0.5em;
-  background-color: rgb(220, 53, 69);
-  color: white;
+  background-color: white;
+  color: crimson;
   font-weight: bold;
   padding: 0.5em;
 }
@@ -85,7 +86,7 @@
   background: radial-gradient(midnightblue, mediumblue, midnightblue);
   */
   background: radial-gradient(mediumaquamarine, darkgreen);
-  border-radius: 0.5em;
+  border-radius: 0em;
   color: white;
 }
 
@@ -162,7 +163,7 @@
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
-  height: 250px;
+  /* height: 250px; */
 }
 .dkm-smallcard-body {
   -ms-flex: 1 1 auto;
@@ -176,7 +177,7 @@
 .dkm-section_contact-tel {
   background-color: rgb(220, 53, 69);
   border-radius: 50rem;
-  margin: 2em;
+  margin: 0em;
 }
 
 /* -------------------------------------------------------------
